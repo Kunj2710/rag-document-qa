@@ -1,0 +1,36 @@
+# Core dependencies (install these first)
+setuptools>=65.0.0
+wheel>=0.40.0
+cython>=3.0.0
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# Web framework
+streamlit>=1.28.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+sse-starlette>=1.6.5
+
+# Document processing
+pypdf>=3.17.0
+PyPDF2>=3.0.1
+beautifulsoup4>=4.12.0
+bs4>=0.0.1
+
+# Vector stores
+chromadb>=0.4.15
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# LLM integrations
+groq>=0.4.0
+langchain-groq>=0.0.1
+
+# Data sources
+wikipedia>=1.4.0
+arxiv>=1.4.7
+
+# Utilities
+pydantic>=2.5.0
+typing-extensions>=4.8.0
+
