@@ -1,0 +1,55 @@
+# Build tools (install first to avoid build issues)
+setuptools>=65.0.0
+wheel>=0.40.0
+cython>=3.0.0
+
+# Core LangChain libraries
+# Note: Install these first with: pip install langchain langchain-openai langchain-core langchain-community langchainhub
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+langchainhub>=0.1.0
+# langserve>=0.0.40  # Optional - can be installed separately if needed
+
+# Environment and configuration
+python-dotenv>=1.0.0
+pyyaml>=6.0.1  # Explicit version for Python 3.13 compatibility
+
+# Web framework and UI
+streamlit>=1.28.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+sse-starlette>=1.6.5
+
+# Document processing
+pypdf>=3.17.0
+PyPDF2>=3.0.1
+beautifulsoup4>=4.12.0
+bs4>=0.0.1
+
+# Vector stores and embeddings
+chromadb>=0.4.15
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+# langchain-objectbox>=0.1.0  # Optional - can cause dependency issues
+# cassio>=0.0.9  # Optional - can cause dependency issues
+
+# LLM integrations
+groq>=0.4.0
+langchain-groq>=0.0.1
+openai>=2.0.0
+tiktoken>=0.7.0
+
+# Data sources
+wikipedia>=1.4.0
+arxiv>=1.4.7
+
+# Utilities
+pydantic>=2.5.0
+typing-extensions>=4.8.0
+
+# Text-to-Speech
+gtts>=2.5.0
+pyttsx3>=2.90
+
